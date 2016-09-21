@@ -1,3 +1,4 @@
+// Head First Java Page 62  (9/21/2016)
 class DogOne{
    String name;
    public static void main(String[] args){      
