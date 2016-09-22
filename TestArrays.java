@@ -11,15 +11,15 @@ class TestArrays{
       int y = 0;
    
       while (y<4){
+         System.out.print("island = ");
          ref = index[y];
          int [] index = new int[4];
          index[0] = 1;
          index[1] = 3;
          index[2] = 0;
          index[3] = 2;
-      System.out.print("island = ");
-      System.out.println(islands[ref]);
+         System.out.println(islands[ref]);
+         y++; // y = y+1;
       }
-      y++;  // y = y+1;
    }
 }
