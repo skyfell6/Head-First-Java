@@ -5,9 +5,9 @@
 
 class Puzzle4b{
    int ivar;
-   private int doStuff(int factor){
+   public int doStuff(int factor){
       if (ivar > 100){
-         return ivar*(2+factor);
+         return ivar*factor;
       } else {
          return ivar*(5-factor);
       }
