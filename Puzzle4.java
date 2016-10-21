@@ -10,8 +10,8 @@ public class Puzzle4{
       int x = 0;
       int result = 0;
       while (x<6){
+         obs[x] = new Puzzle4b();
          obs[x].ivar=y;
-         ivar=x;
          y = y*10;
          x = x+1;
       }
